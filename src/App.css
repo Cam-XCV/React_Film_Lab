@@ -1,38 +1,49 @@
 .App {
+  margin: auto;
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.film-box {
+  width: 450px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 10px;
+  background-color: rgb(208, 208, 208);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.film-box > h1 {
+  font-size: 20px;
+  color: rgb(53, 53, 53);
+  padding-bottom: 10px;
+  border-bottom: 2px grey solid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.film-box > a{
+  margin: 10px;
+  background-color: rgb(119, 119, 119);
   color: white;
+  border: 2px white solid;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.film-list {
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.film {
+  margin: 5px;
+}
+
+.film > a{
+  text-decoration: none;
+}
+
+.film > a {
+  color: black;
+}
+
+.film > a:visited {
+  color: black;
 }
